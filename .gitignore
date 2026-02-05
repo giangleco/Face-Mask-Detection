@@ -1,0 +1,57 @@
+# --- 1. Python & Môi trường ảo (Bắt buộc) ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv/
+Pipfile
+Pipfile.lock
+
+# --- 2. Jupyter Notebook (Rất quan trọng) ---
+# Bỏ qua các file checkpoint (file lưu tạm tự sinh ra)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+# Nếu bạn không muốn up file notebook, bỏ comment dòng dưới
+# *.ipynb
+
+# --- 3. Dữ liệu & Model (NÊN BỎ QUA vì rất nặng) ---
+dataset/
+datasets/
+data/
+image/
+
+# Bỏ qua các file Model đã train 
+*.h5
+*.hdf5
+*.keras
+*.json
+*.weights
+*.pb
+*.tflite
+
+
+# --- 4. Các file Output/Log sinh ra khi chạy ---
+logs/
+tensorboard_logs/
+training_checkpoints/
+output/
+results/
+*.csv
+*.log
+
+# --- 5. IDE & Hệ điều hành ---
+# VS Code setting
+.vscode/
+# PyCharm setting
+.idea/
+# File rác của Windows/Mac
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+*.mp4
+*.avi
+*.jpg
+*.png
